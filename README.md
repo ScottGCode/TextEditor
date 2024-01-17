@@ -2,7 +2,7 @@
 
 ## Description
 
-Create notes or code snippets with or without an internet connection and easily retrieve them for later use! This is just another text editor that runs in the browser. It is a single-page application that meets the PWA criteria and it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application also functions offline. Using a package called `idb` this application contains useful methods for geting and storing data to an IndexedDB database.
+Create notes or code snippets with or without an internet connection and easily retrieve them for later use! This is just another text editor that runs in the browser. It is a single-page application that meets the PWA criteria and it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application also functions offline. Using a package called `idb` this application contains useful methods for geting and storing data to an IndexedDB database. 
 
 - What was your motivation?
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
@@ -11,7 +11,15 @@ Create notes or code snippets with or without an internet connection and easily 
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+To install this application; 
+
+1. Fork and clone the repository from the GitHub link provided.
+2. In your code editor open the file in the integrated terminal.
+3. Run the command `npm install` to install required dependencies.
+4. Then type `npm run build` to build the application.
+5. Next enter `npm start` to start the server. 
+6. The server will be running on http://http://127.0.0.1:3000/.
+
 
 ## Usage
 
@@ -23,7 +31,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-University of Utah Coding Bootcamp Instructor and Teaching Assistants.
+University of Utah Coding Bootcamp Instructor and Teaching Assistants. idb documentation. Webpack documentation. 
 
 ## License
 
