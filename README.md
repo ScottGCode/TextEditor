@@ -9,23 +9,24 @@ Create notes or code snippets with or without an internet connection and easily 
 To install this application; 
 
 1. Fork and clone the repository from the GitHub link provided.
-2. In your code editor open the file in the integrated terminal.
+2. In your code editor open the root folder in the integrated terminal.
 3. Run the command `npm install` to install required dependencies.
 4. Then type `npm run build` to build the application.
 5. Next enter `npm run start:dev` to start the server. 
-6. The server will be running on `http://127.0.0.1:3000`.
+6. The server will be running on port `3000`.
 
 
 ## Usage
 
 - To use this application online in your broswer use `http://127.0.0.1:3000` after you have completed the steps for installation. 
 
-- Click on the link for the deployed application to use this application. 
+- Click on the link for the deployed application [click here](https://blue-calf.onrender.com/)
 
 - This application is also installable and can be used offline using the install button. 
-Provide instructions and examples for use. Include screenshots as needed.
 
-![alt text](assets/images/screenshot.png)
+- While using the application, open up Chrome Dev Tools navigate to the Application button to see the mainifest.json, the registered service worker and the indexedDB. 
+
+![screeshot](/images/Screenshot%202024-01-17%20at%205.54.14 PM.png) 
 
 ## Credits
 
