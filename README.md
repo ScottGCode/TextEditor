@@ -2,12 +2,7 @@
 
 ## Description
 
-Create notes or code snippets with or without an internet connection and easily retrieve them for later use! This is just another text editor that runs in the browser. It is a single-page application that meets the PWA criteria and it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application also functions offline. Using a package called `idb` this application contains useful methods for geting and storing data to an IndexedDB database. 
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+Create notes or code snippets with or without an internet connection and easily retrieve them for later use! This is just another text editor that runs in the browser. It is a single-page application that meets the PWA criteria and it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application also functions offline. Using a package called `idb` this application contains useful methods for geting and storing data to an IndexedDB database. This application works on any broswer and device and can also be installed.
 
 ## Installation
 
@@ -17,15 +12,18 @@ To install this application;
 2. In your code editor open the file in the integrated terminal.
 3. Run the command `npm install` to install required dependencies.
 4. Then type `npm run build` to build the application.
-5. Next enter `npm start` to start the server. 
-6. The server will be running on http://http://127.0.0.1:3000/.
+5. Next enter `npm run start:dev` to start the server. 
+6. The server will be running on `http://127.0.0.1:3000`.
 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+- To use this application online in your broswer use `http://127.0.0.1:3000` after you have completed the steps for installation. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+- Click on the link for the deployed application to use this application. 
+
+- This application is also installable and can be used offline using the install button. 
+Provide instructions and examples for use. Include screenshots as needed.
 
 ![alt text](assets/images/screenshot.png)
 
